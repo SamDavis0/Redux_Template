@@ -1,3 +1,4 @@
+// import { INCREMENT } from '../actions/types'
 import { INCREMENT } from '../actions/types'
 
 
@@ -13,7 +14,6 @@ const sampleReducer = (state=initialState, action) => {
                 ...state,
                 count: state.count + action.data
             }
-    
         default:
             return state
     }
